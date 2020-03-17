@@ -1,0 +1,159 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar-toggler
+{
+    background-color: #1b1e47;
+}
+.navbar-dark
+{
+    border-color: #e7e7e7;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-nav .nav-item:hover
+{
+    background-color: #1e435a;
+}
+.bg-light
+{
+    background-color: white !important;
+}
+.logo1
+{
+    padding-bottom: 20px;
+}
+.navbar-nav>li
+{
+    padding: 5px 10px;
+}
+.navbar-nav
+{
+    margin-left: 70px;
+}
+.headingstyle
+{
+    color: #1b1e47;
+}
+.service-no-1
+{
+    font-size: 100px;
+    color: #c2c2c2;
+}
+.service-no-2
+{
+    font-size: 100px;
+    color: #d2d2d2;
+}
+.service-info
+{
+    text-align: justify;
+    font-size: 15px;
+    color: #666666;
+    line-height: 25px;
+}
+.ulli>li
+{
+    padding-bottom: 10px;
+    text-align: justify;
+    color: #666666;
+}
+.service-info-link
+{
+     font-size: 15px;
+}
+.service-info-link>a
+{
+    text-align: justify;
+    color: black;
+}
+.service-heading
+{
+    color: #1e435a;
+}
+.service-block-1
+{
+    background-color: #cccccc;
+}
+.service-block-2
+{ 
+    background-color: #dddddd;
+}
+.about-us-page-div
+{
+    background-color: #dddddd;
+}
+
+.software-heading
+{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444;
+}
+.btn-primary
+{
+    background-color: #1b1e47;
+}
+.footer-main
+{
+    background: #0c2433;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-info
+{
+    color: white;
+    font-size: 14px;
+}
+.gallery-text
+{
+    position: relative;
+
+}
+.image
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1e435a;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .gallery-text:hover .overlay {
+    height: 100%;
+  }
+@media only screen and (max-width:967px)
+{
+    .navbar-nav
+    {
+        margin-left: 0px;
+    } 
+}
